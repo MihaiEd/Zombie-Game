@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Menu">
+    
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/MyScore"
+            android:text="@string/MyScore"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/Zombies"
+            android:text="@string/Zombies"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image"
+            android:src="@drawable/zombie"
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <TextView
+            android:id="@+id/uid"
+            android:text="@string/uid"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/mail"
+            android:textColor="@color/black"
+            android:text="@string/mail"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/name"
+            android:text="@string/name"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/date"
+            android:text="@string/date"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/Menutxt"
+            android:text="@string/Menutxt"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <Button
+            android:id="@+id/PlayBtn"
+            android:text="@string/PlayBtn"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/button_personalised"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Button>
+
+        <Button
+            android:id="@+id/ScoresBtn"
+            android:text="@string/ScoresBtn"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_personalised"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Button>
+
+        <Button
+            android:id="@+id/CreateSesion"
+            android:text="@string/CreateSesion"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_personalised"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Button>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

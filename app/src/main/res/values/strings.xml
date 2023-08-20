@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ZombieGame</string>
+
+    <!--MainActivity-->
+    <string name="BTNLOGIN">Login</string>
+    <string name="BTNREGISTER">Register</string>
+
+    <!--Register-->
+    <string name="mailEt">E-mail</string>
+    <string name="passEt">Password</string>
+    <string name="nameEt">Name</string>
+    <string name="dateTxt">Date</string>
+    <string name="Register">Register</string>
+
+    <!--Login-->
+    <string name="BtnLogin">Login</string>
+    <string name="mailLogin">Email</string>
+    <string name="passLogin">Password</string>
+
+    <!--Menu-->
+    <string name="MyScore">My Score</string>
+    <string name="Zombies"> -- </string>
+    <string name="uid"> -- </string>
+    <string name="mail"> -- </string>
+    <string name="name"> --</string>
+    <string name="date"> --</string>
+
+    <string name="Menutxt">Menu</string>
+
+    <string name="PlayBtn">Play</string>
+    <string name="ScoresBtn">Scores</string>
+
+    <string name="CreateSesion">Close Sesion</string>
+
+    <!--Gameplay-->
+    <string name="TvCounter"> 0 </string>
+    <string name="TvName"> ---- </string>
+    <string name="TvTmp"> 0s</string>
+
+    <!--Screen-->
+    <string name="WidthTv"> -- </string>
+    <string name="HeightTv"> -- </string>
+
+    <!--GameOver-->
+    <string name="ItsOver">Time ended!</string>
+    <string name="Killed">You killed </string>
+    <string name="Number"> -- </string>
+    <string name="PlayAgain">Play again</string>
+    <string name="ReturnMenu">Menu</string>
+    <string name="Scores">Scores</string>
+
+    <!--Scores-->
+    <string name="playerName">Name</string>
+    <string name="playerScore">Score</string>
+</resources>

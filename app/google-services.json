@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "596729718532",
+    "project_id": "zombiegamedb",
+    "storage_bucket": "zombiegamedb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596729718532:android:831f7649a4a954c5935251",
+        "android_client_info": {
+          "package_name": "com.example.zombiegame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596729718532-gvdtjbn478urseejb1m3ecitcbg1rm7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zombiegame",
+            "certificate_hash": "0a40155dc56f293c98e772edd84c1929d1666321"
+          }
+        },
+        {
+          "client_id": "596729718532-2a7nd2mri6phg1c3a1kbohrp1570qfhi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABuPPim_MO6ib65rsMzS0wghj0FET9V9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596729718532-2a7nd2mri6phg1c3a1kbohrp1570qfhi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

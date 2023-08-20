@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".GamePlay">
+    
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<!--Info-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:weightSum="6"
+            android:background="#000000"
+            android:orientation="horizontal">
+            <!--X Y-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <!--X-->
+                <TextView
+                    android:id="@+id/WidthTv"
+                    android:text="@string/WidthTv"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <!--Y-->
+                <TextView
+                    android:id="@+id/HeightTv"
+                    android:text="@string/HeightTv"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/gun"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="3dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/TvCounter"
+                android:text="@string/TvCounter"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:layout_marginStart="3dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/TvName"
+                android:text="@string/TvName"
+                android:textSize="15sp"
+                android:layout_marginStart="3dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+                <!--Animation-->
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="3dp"
+                app:lottie_imageAssetsFolder="assets"
+                app:lottie_fileName="tmp.json"
+                app:lottie_loop="true"
+                app:lottie_autoPlay="true"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/TvTmp"
+                android:text="@string/TvTmp"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:layout_marginStart="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--Zombie-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/IvZombie"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/zombie">
+            </androidx.appcompat.widget.AppCompatImageView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

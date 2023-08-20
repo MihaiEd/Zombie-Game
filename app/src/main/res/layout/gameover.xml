@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:padding="10dp">
+
+    <TextView
+        android:id="@+id/ItsOver"
+        android:text="@string/ItsOver"
+        android:gravity="center"
+        android:textColor="#0B2F3A"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/Killed"
+        android:text="@string/Killed"
+        android:gravity="center"
+        android:textColor="#0B2F3A"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/Number"
+        android:text="@string/Number"
+        android:gravity="center"
+        android:textColor="#0B2F3A"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--Animation-->
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_fileName="finish.json"
+        android:layout_marginTop="5dp"
+        android:paddingTop="10dp"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"/>
+
+    <Button
+        android:id="@+id/PlayAgain"
+        android:text="@string/PlayAgain"
+        android:background="@drawable/button_personalised"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/ReturnMenu"
+        android:text="@string/ReturnMenu"
+        android:background="@drawable/button_personalised"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/Scores"
+        android:text="@string/Scores"
+        android:background="@drawable/button_personalised"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>
